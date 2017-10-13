@@ -3,6 +3,10 @@ I finally found a good solution to fix headers on a table...
 
 The sass and html can be found below, I didn't fill the table out because I am lazy and I copied this from a different app, but you get the idea. I used this in conjunction with [bootstrap 4](http://getbootstrap.com/docs/4.0/getting-started/download/) and [create-react-app](https://github.com/facebookincubator/create-react-app), so I know that at least it is compatible with that.
 
+NOTE: You must set table height either inline or in the css file corresponding with each table instance for flexibility.
+
+[Example](https://codepen.io/pmpbar/pen/vezeNW)
+
 [Original Stack Overflow Post I found](https://stackoverflow.com/a/37295525/2081635)
 
 Sass:
@@ -76,10 +80,9 @@ HTML:
               Column 2
             </div>
           </th>
-            Column 3
           <th>
             <div>
-            Price
+            Column 3
             </div>
           </th>
         </tr>

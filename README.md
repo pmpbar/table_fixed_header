@@ -5,6 +5,7 @@ The sass and html can be found below, I didn't fill the table out because I am l
 
 [Original Stack Overflow Post I found](https://stackoverflow.com/a/37295525/2081635)
 
+Sass:
 ```scss
 .table-fixed-header {
   width: 100%;
@@ -58,7 +59,7 @@ The sass and html can be found below, I didn't fill the table out because I am l
   }
 }
 ```
-
+HTML:
 ```html
 <div className="table-fixed-header">
   <div className="table-fixed-header-container">
